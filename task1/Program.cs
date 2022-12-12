@@ -3,7 +3,7 @@
 // 1, -7, 567, 89, 223-> 3
 
 Console.Write("Введите элементы через пробел: ");
-bool number = int.TryParse(Console.ReadLine(), out int num);
+int.TryParse(Console.ReadLine(), out int num);
 
 int[] arr = GetArray();
 int count = GetValuesGreaterThanZero();
